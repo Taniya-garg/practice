@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heena Garments</title>
+  </head>
+  <style>
+    body {
+      margin: 0%;
+      padding: 0%;
+      background: url("img/bg.jpg");
+    }
+
+    /* .left {
+        display: inline-block;
+
+
+    }
+
+    .mid {
+        display: block;
+        text-decoration: none;
+
+
+    }
+
+    .box {
+        width: 36px;
+        height: 36px;
+        border: 2px solid black;
+        margin: 2px;
+    }
+
+    #box1 {
+        background-color: aqua;
+    }
+
+    #box2 {
+        
+        background-color: blue;
+    }
+
+    #box3 {
+        background-color: cadetblue;
+        z-index: 156;
+        position: absolute;
+        top: 182px;
+    }
+
+    #box4 {
+        background-color: brown;
+        z-index: 178;
+        position: absolute;
+        top: 178px;
+        left: 15px;
+    } */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      border: 2px solid black;
+      justify-content: center;
+    }
+
+    .box {
+      border: 2px solid black;
+      margin: 2px;
+    }
+
+    #Item-2 {
+      flex-grow: 1;
+      padding: 7px;
+      margin: 7px;
+      text-align: center;
+    }
+
+    #Item-3 {
+      align-self: flex-end;
+    }
+    ul a {
+      text-decoration: none;
+      margin: 6px 31px;
+    }
+  </style>
+
+  <body>
+    <div class="container">
+      <div class="box" id="Item-1">this is left</div>
+      <div class="box" id="Item-2">
+        <ul>
+          <a href="#">Name</a>
+          <a href="#">Content</a>
+          <a href="#">Photos</a>
+          <a href="#">About Us</a>
+        </ul>
+      </div>
+      <div class="box" id="Item-3">This is right</div>
+    </div>
+    <!-- <header class="header">
+        <div class="left">
+            This is left
+
+        </div> -->
+    <!-- <div class="mid">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">content</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Photos</a></li>
+            </ul>
+
+        </div>
+        <div class="right" title="ji">
+            this is right
+        </div>
+    </header>
+    <progress value="65" max="100" title="65%"></progress>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div> -->
+  </body>
+</html>
+
