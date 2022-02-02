@@ -6,7 +6,9 @@ class taniya {
          try (Scanner sc = new Scanner(System.in)) {
             double x;
             double y;
+            System.out.print("x=");
             x = sc.nextDouble();
+            System.out.print("y=");
             y = sc.nextDouble();
             
             if (x == y) {
